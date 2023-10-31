@@ -1,6 +1,8 @@
+
 require('dotenv').config();
 
 const app = require('./server');
+// require('./database');
 require('./database');
 
 // Server is listening
