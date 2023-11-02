@@ -10,6 +10,7 @@ services:
       - DB_URL=mongodb://mongo_container:27017/mydb
       - NODE_ENV=deployment
     entrypoint: "node index.js"
+    
   mongodb:
     image: mongo:7.0
     container_name: mongo_container
